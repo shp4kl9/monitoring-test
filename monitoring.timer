@@ -1,0 +1,10 @@
+[Unit]
+Description=Run monitoring every minute
+Requires=monitoring.service
+
+[Timer]
+OnCalendar=*:*:0
+Persistent=true
+
+[Install]
+WantedBy=timers.target
