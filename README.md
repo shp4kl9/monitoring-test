@@ -1,7 +1,9 @@
 Установка
 
 sudo cp monitoring.sh /usr/local/bin/
+
 sudo chmod +x /usr/local/bin/monitoring.sh
+
 sudo touch /var/log/monitoring.log
 
 
